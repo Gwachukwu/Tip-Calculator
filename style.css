@@ -19,3 +19,8 @@ form{
 button{
     margin-top: 5%;
 }
+.clear:hover{
+    background-color: red;
+    outline: none;
+    color: white;
+}
