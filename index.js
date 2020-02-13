@@ -17,7 +17,7 @@ function calculate() {
     document.querySelector(
       ".unit-cost"
     ).innerHTML = `Please enter number of customers`;
-  } else if (price || numberOfCustomers < 0) {
+  } else if (price < 0 || numberOfCustomers < 0) {
     document.querySelector(
       ".total-tips"
     ).innerHTML = `Price and number of customers can only be positive numbers`;
